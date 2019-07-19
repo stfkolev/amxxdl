@@ -1,0 +1,30 @@
+$buttons: (
+    (color: $palette-bright-red, class: action-red),
+    (color: $palette-nature-orange, class: action-orange),
+    (color: $palette-cloud-blue, class: action-blue),
+    (color: $palette-turquoise, class: action-green)
+);
+
+button[class*='action'] {
+    @include font(600, 0.75em);
+    padding: 0.5em 1em;
+    border: 1px solid $palette-theme-tertiary;
+    transition: all 0.3s;
+    color: $palette-theme-tertiary;
+    border-radius: 0.15em;
+    margin-left: 0.75em;
+
+    @each $btn in $buttons {
+        $color: map_get($btn, 'color');
+
+        &.#{map_get($btn, 'class')} {
+            color: $color;
+            border-color: $color;
+
+            &:hover {
+                background: $color;
+                color: $palette-theme-tertiary;
+            }
+        }
+    }
+}

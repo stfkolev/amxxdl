@@ -1,0 +1,17 @@
+language: node_js
+
+node_js:
+    - "stable"
+
+env:
+    - NODE_ENV=production
+
+install:
+    - npm install
+
+script:
+    - npm run electron:build
+
+cache:
+    directories:
+        - "node_modules"
