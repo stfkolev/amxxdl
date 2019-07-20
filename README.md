@@ -2,10 +2,7 @@
     <a href="https://github.com/stfkolev/amxxdl/tree/master"><img alt="Stable Branch" src="https://img.shields.io/badge/Stable%20Branch-master-3FB27F.svg"/></a>
     <a href="https://github.com/stfkolev/amxxdl/tree/dev"><img alt="Development Branch" src="https://img.shields.io/badge/Dev%20Branch-dev-3eacb2.svg"/></a>
     <a href="https://travis-ci.org/stfkolev/amxxdl/"><img alt="Build Status" src="https://travis-ci.org/stfkolev/amxxdl.svg?branch=master"/></a>
-    <img alt="Product state: Beta" src="https://img.shields.io/badge/State-beta-3c71b2.svg"/>
-    <a href="https://www.patreon.com/simonwep"><img alt="Support me" src="https://img.shields.io/badge/Patreon-support-553cb2.svg"></a>
-</p>
-
+    
 AMXXDL is a YouTube downloaded with focus of flexibility and design. Let every download be a pleasure. It's backed with [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg),
 [VueJS](https://vuejs.org/), [Electron](https://electronjs.org/) and [node-ytdl-core](https://github.com/fent/node-ytdl-core).
 
